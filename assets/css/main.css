@@ -1,0 +1,116 @@
+body{
+    background-color: hsl(36, 100%, 99%);
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+p{
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    line-height: 1.8;
+    opacity: 1;
+}
+/*//////*/
+header li a:hover{
+    color: hsl(5, 85%, 63%) !important;
+}
+.news-bg{
+    background-color: hsl(240, 100%, 5%);
+}
+.news-text h2{
+    color: hsl(35, 77%, 62%);
+    font-weight: 700;
+    font-size: 40px;
+}
+.news-text a{
+    color: white;
+    font-size: 18px;
+}
+.news-text2 p{
+    color:  hsl(233, 8%, 79%);
+}
+.news-text2{
+    border-bottom: .5px solid hsl(236, 13%, 42%);
+    text-transform: capitalize;
+}
+.news-text2 a{
+    transition: all .3s;
+}
+.news-text2 a:hover{
+    color: hsl(35, 77%, 62%);
+}
+.news-text2:last-child{
+    border: none;
+}
+.bright-text h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.btn{
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 0;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+}
+.card{
+    background-color: transparent ;
+    border: none;
+}
+.card h5{
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+.card-body a{
+    color: hsl(240, 100%, 5%);
+    font-size: 17px;
+    font-weight: 700;
+    transition: all .3s;
+    text-transform:  capitalize;
+}
+.card-body a:hover{
+    color: hsl(5, 85%, 63%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*////////////////////*/
+@media screen and (max-width:600px) {
+    .navbar{
+        padding: 0 !important;
+    }
+    .items {
+        width: 30%;
+    }
+    .items img{
+        width: 100%;
+    }
+    .items-text{
+        width: 70%;
+    }
+    .text-muted{
+        font-size: 15px;
+    }
+    .card-body a{
+        font-size: 20px;
+    }
+    .mt-5{
+        margin-top: 30px !important;
+    }
+    .item-parent{
+        padding: 15px !important;
+    }
+}
